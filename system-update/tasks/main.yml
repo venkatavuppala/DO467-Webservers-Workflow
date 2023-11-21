@@ -1,0 +1,9 @@
+---
+# tasks file for system-update
+- name: update the entire system
+  ansible.builtin.yum:
+   name: "*"
+   state: latest
+
+- name: reboot
+  ansible.builtin.reboot:
