@@ -1,0 +1,14 @@
+---
+- name: deploy index file
+  hosts: all
+  become: true
+  tasks:
+    - name: deploy index.html from index.html.j2
+      ansible.builtin.template:
+        src: index.html.j2
+        dest: /var/www/html/index.html
+
+    - name: deploy hello.html
+      ansible.builtin.copy:
+        src: hello.html
+        dest: /var/www/html/hello.html
