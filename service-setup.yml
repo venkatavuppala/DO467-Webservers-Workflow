@@ -1,7 +1,7 @@
 ---
 - name: setup services
   hosts: all
- # become: true
+  become: true
   tasks:
     - name: start and enable httpd and firewalld
       ansible.builtin.service:
