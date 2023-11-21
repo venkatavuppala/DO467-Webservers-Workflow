@@ -1,0 +1,11 @@
+---
+- name: setup packages for webserver
+  hosts: all
+  become: true
+  tasks:
+    - name: install httpd and firewalld
+      ansible.builtin.yum:
+        name:
+          - httpd
+          - firewalld
+        state: latest
