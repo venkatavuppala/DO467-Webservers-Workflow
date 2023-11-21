@@ -1,0 +1,11 @@
+---
+- name: configure the firewall
+  hosts: all
+  become: true
+  tasks:
+    - name: allow port 80/tcp in the firewall
+      ansible.posix.firewalld:
+        port: 80/tcp
+        permanent: true
+        immediate: true
+        state: enabled
