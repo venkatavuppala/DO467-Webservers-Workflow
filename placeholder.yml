@@ -1,7 +1,7 @@
 ---
 - name: deploy index file
   hosts: all
-  become: true
+  #become: true
   tasks:
     - name: deploy index.html from index.html.j2
       ansible.builtin.template:
