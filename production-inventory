@@ -15,6 +15,5 @@ ansible_user=sysadmin
 country=india
 
 [localservers]
-192.168.68.57
-192.168.68.58
-192.168.68.68
+redhat8-client1
+redhat8-client2
