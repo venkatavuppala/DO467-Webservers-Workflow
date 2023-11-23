@@ -14,6 +14,7 @@ ansible_user=sysadmin
 [india:vars]
 country=india
 
-[localservers]
-redhat8-client1
-redhat8-client2
+redhat8-client1    ansible_ssh_host=192.168.68.57
+redhat8-client2    ansible_ssh_host=192.168.68.58
+
+
