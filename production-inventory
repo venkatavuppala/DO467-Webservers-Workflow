@@ -11,7 +11,7 @@ redhat8-client2
 #server4.example.com
 
 [all:vars]
-ansible_user=sysadmin
+ansible_user=dockadmin
 
 [india:vars]
 country=india
