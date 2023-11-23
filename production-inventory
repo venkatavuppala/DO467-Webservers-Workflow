@@ -1,0 +1,15 @@
+server5.example.com
+
+[india]
+server1.example.com
+server2.example.com
+
+[usa]
+server3.example.com
+server4.example.com
+
+[all:vars]
+ansible_user=sysadmin
+
+[india:vars]
+country=india
