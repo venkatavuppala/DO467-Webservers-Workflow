@@ -6,8 +6,3 @@
     - name: Display Gathered Facts
       debug:
         var: ansible_facts
-
-    - name: Create File if Red Hat
-      command: touch /tmp/os
-      when: "'RedHat' in ansible_facts.ansible_distribution"
-      tags: create_file
