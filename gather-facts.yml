@@ -1,2 +1,8 @@
-- name: Gather facts about the system
-  ansible.builtin.setup:
+---
+- name: Gather Facts from Red Hat Linux
+  hosts: your_target_hostname
+  gather_facts: true
+  tasks:
+    - name: Display Gathered Facts
+      debug:
+        var: ansible_facts
