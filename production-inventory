@@ -1,14 +1,14 @@
-server5.example.com
+#server5.example.com
 redhat8-client1
 redhat8-client2
 
 [india]
-server1.example.com
-server2.example.com
+#server1.example.com
+#server2.example.com
 
 [usa]
-server3.example.com
-server4.example.com
+#server3.example.com
+#server4.example.com
 
 [all:vars]
 ansible_user=sysadmin
