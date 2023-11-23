@@ -13,3 +13,8 @@ ansible_user=sysadmin
 
 [india:vars]
 country=india
+
+[localServers]
+192.168.68.57
+192.168.68.58
+192.168.68.68
