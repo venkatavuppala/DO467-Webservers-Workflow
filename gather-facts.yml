@@ -1,6 +1,6 @@
 ---
 - name: Gather Facts from Red Hat Linux
-  hosts: your_target_hostname
+  hosts: all
   gather_facts: true
   tasks:
     - name: Display Gathered Facts
