@@ -1,22 +1,2 @@
-#server5.example.com
-redhat8-client1
-redhat8-client2
-
-[india]
-#server1.example.com
-#server2.example.com
-
-[usa]
-#server3.example.com
-#server4.example.com
-
-[all:vars]
-ansible_user=dockadmin
-
-[india:vars]
-country=india
-
-# redhat8-client1    ansible_ssh_host=192.168.68.57
-# redhat8-client2    ansible_ssh_host=192.168.68.58
-
-
+server11
+server12
