@@ -1,6 +1,6 @@
 #server5.example.com
 redhat8-client1
-#redhat8-client2
+redhat8-client2
 
 [india]
 #server1.example.com
